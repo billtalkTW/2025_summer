@@ -1,9 +1,4 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a//dev/null b/README.md
-index 0000000000000000000000000000000000000000..efdf06949bd2bbae52c1c655b7c07f2c72646216 100644
---- a//dev/null
-+++ b/README.md
-@@ -0,0 +1,53 @@
+
 +# 專案簡介
 +
 +本專案包含三個不同版本的程式，用於分析影像資料並區分良品與部分良品。程式碼分別為 `HW1_v1.py`、`HW1_v2.py`、`HW1_v3.py`。
